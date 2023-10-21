@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7bef836d47.js" crossorigin="anonymous"></script>
+    <title>Vicky Alward Hie</title>
+</head>
+<body>
+
+    <!-- header -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html" style="cursor: pointer; text-decoration: none;">
+                    <h1 class="awal"> <span>Architect</span></h1>
+                </a>
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><i class="fas fa-times" onclick="closemenu()"></i></li>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Architect Studio</p>
+                <h1>Hi, I'm <span>Vicky Alward Hie,</span> <br>an Indonesia Architect</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/silvie.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur 
+                        adipisicing elit. Aliquam inventore sed 
+                        doloremque deleniti. Sed natus debitis, 
+                        alias velit fugiat deleniti!</p>
+                
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="skills-list">
+                            <li><span>Autocad</span></li>
+                            <li><span>Archicad</span></li>
+                            <li><span>Skecthup</span></li>
+                            <li><span>enscape</span></li>
+                            <li><span>twinmotion</span></li>
+                            <li><span>vray</span></li>
+                            <li><span>Adobe Illustrator</span></li>
+                            <li><span>Adobe Indesign</span></li>
+                            <li><span>Adobe Photoshop</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>PT Artha Karya Internusa</span><br>Designing Web app Interfaces</li>
+                            <li><span>PT Pandega Desain Weharima</span><br>Designing Web app Interfaces</li>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Universitas Agung Podomoro Jakarta</span><br>Designing Web app Interfaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Interior Design</h2>
+                    <p>Not only are we beautiful and elegant, 
+                        but we may also add comfort to your family's house.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Architecture Freelance</h2>
+                    <p>If you need architectural services or want to do a design consultation 
+                        I'm ready to serve you and give you my design ideas.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Architecture Commercial</h2>
+                    <p>Commercial design that is creative, efficient company space, 
+                        and the greatest architectural solution.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Modern Minimalis Interior</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Alias sit vitae nam labore eligendi obcaecati?</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work5.jpg" alt="">
+                    <div class="layer">
+                        <h3>Equiversa Office</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Alias sit vitae nam labore eligendi obcaecati?</p>
+                            <a href="Equiversa.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work4.png" alt="">
+                    <div class="layer">
+                        <h3>Tuju Cafe</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Alias sit vitae nam labore eligendi obcaecati?</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#portfolio" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i></i>vicky415x@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>082281415047</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/vickyalwardhie/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/vicky-alward-hie-527293199/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="download/VICKY ALWARD HIE.docx" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/xwkdrwlo" method="POST">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &#169 2023 Vicky Alward Hie</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+</html>
